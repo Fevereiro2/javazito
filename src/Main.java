@@ -11,5 +11,7 @@ public class Main {
             System.out.println(x + " é maior que " + y); //dar print
         else //se não
             System.out.println(x + " é igual ou menor que " + y); //dar print
+
+        System.out.printf("%d x %d = %d\n", x, y, y); //exemplo do printf
     }
 }

@@ -1,9 +1,17 @@
 import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 public class Main {
     public static void main(String[] args) {
+
         Scanner read = new Scanner(System.in); // bibioteca para pedir dados a utilizadores
-        int x,y; //declarar variaveis
+        int x,y, z; //declarar variaveis
+
+        //Usar uma library grafica
+        z = Integer.parseInt(JOptionPane.showInputDialog(null,"Introduza o valor que deseja"));
+        JOptionPane.showMessageDialog(null,z);
+
+
         System.out.println("Insira dois numeros"); //dar print
         x = read.nextInt(); //armazenar
         y = read.nextInt(); //armazenar

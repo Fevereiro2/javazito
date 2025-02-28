@@ -13,5 +13,14 @@ public class Main {
             System.out.println(x + " é igual ou menor que " + y); //dar print
 
         System.out.printf("%d x %d = %d\n", x, y, y); //exemplo do printf
+
+
+        /*
+        x = read.nexdouble(); //armazenar double
+        x = read.nextInt(); //armazenar inteiro
+        x = read.nextLine(); //armazenar string
+        x = read.nextInt().charAt(0); //armazenar char
+    */
     }
+
 }
